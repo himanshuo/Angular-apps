@@ -1,0 +1,35 @@
+<div id="wrapper">
+<div id="label" >
+<label>{{label}}:</label>
+</div>
+<div id="data">
+<div id="boxValue">
+<input id="inputbox" type="textbox" ng-model="boxValue" ng-change="boxValueChanged()" min=0 max={{alreadyUsed}} integer>
+{{current}}
+</div>
+
+
+<div id="addsubwrapper">
+
+<div id="add">
+<input type="button" id="plusButton" value="+" ng-click="add()">
+</div>
+
+<div id="sub">
+<input type="button" id="subButton" value="-" ng-click="subtract()">
+</div>
+  
+</div>
+
+
+
+<div id="describe">
+{{max - boxValue - alreadyUsed}} of {{max}} votes remain
+</div>
+
+</div>
+
+
+</div>
+
+

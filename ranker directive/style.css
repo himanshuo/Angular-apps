@@ -1,0 +1,89 @@
+#wrapper {
+  
+  
+} 
+#label {
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+  color: #737373;
+  font-size: 15px;
+  margin-right: 18px;
+  
+}
+#labeltext {
+  line-height: 80px;
+  text-align: center;
+}
+#data {
+  margin: 18px;
+  display: inline-block;
+}
+#boxValue {
+  display: inline-block;
+  float: left;
+}
+#addsubwrapper {
+  display: inline-block;
+  height: 40px;
+}
+#plusButton {
+  background-image: -o-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -moz-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -webkit-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -ms-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: linear-gradient(to top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  height: 19px;
+  width: 18px;
+  border-top-right-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
+  border-style: none;
+}
+
+#plusButton:focus {
+outline: none;
+}
+
+
+#subButton {
+  background-image: -o-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -moz-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -webkit-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: -ms-linear-gradient(top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  background-image: linear-gradient(to top, #F7AB60 0%, #FFCEA3 50%, #FF995E 100%);
+  border-bottom-right-radius: 5px;
+  height: 18px;
+  width: 18px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-style: none;
+}
+#subButton:focus {
+outline: none;
+}
+
+
+#describe {
+  font-style: italic;
+  color: #737373;
+  font-size:13px;
+  border:solid 2px #fff;
+  text-align:center;
+}
+#inputbox {
+  height: 34px;
+  width: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #737373;
+  font-size: 20px;
+  border: 1px solid #EDEDED;
+  margin-left:20px;
+  }

@@ -1,0 +1,44 @@
+
+
+#checkbox{
+  height:12px;
+  width:12px;
+  border:solid 2px;
+  -moz-box-shadow:    inset 0 0 1px #000000;
+   -webkit-box-shadow: inset 0 0 1px #000000;
+   box-shadow:         inset 0 0 1px #000000;
+  display:inline-block;
+   cursor:pointer;
+  
+    
+}
+
+#innerBox{
+  
+  
+    height:8px;
+    width:8px;
+  
+  
+  background-color:white;
+  
+  margin: 2px 0px 0px 2px;
+  
+}
+
+.active {
+    background-color: #f8ae5f!important;
+
+  }
+
+#text{
+  font-family: Helvetica, Arial, sans-serif;
+ vertical-align:top;
+  display:inline-block;
+
+
+font-weight: normal;
+    
+}
+
+

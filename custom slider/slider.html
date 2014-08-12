@@ -1,0 +1,129 @@
+<!Doctype html>
+<style>
+  .active {
+    background-color: #f8ae5f;
+  }
+  #wrap {
+    display: inline-block;
+    padding: 15px;
+  }
+  #OuterCircle {
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+    position: relative;
+    margin: 0 auto;
+  }
+  #InnerCircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+  }
+  #BottomText {
+    border: solid;
+    border-color: white;
+    text-align: center;
+  }
+</style>
+
+<div style="text-align:center;">
+
+  <div class="" id="wrap">
+    <div>1</div>
+    <div id="OuterCircle" style="width:50px; height:50px;" ng-click="clickBubble(1)">
+
+      <div id="InnerCircle" style="margin: -20px 0px 0px -20px; height:40px; width:40px" ng-class="{active:isSelected(1)}"></div>
+
+    </div>
+    <span id="BottomText">{{left}}</span>
+  </div>
+  <div class="" id="wrap">
+    <div>2</div>
+    <div id="OuterCircle" style="width:40px; height:40px;" ng-click="clickBubble(2)">
+
+      <div id="InnerCircle" style="margin: -15px 0px 0px -15px; height:30px; width:30px" ng-class="{active:isSelected(2)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+  <div class="" id="wrap">
+    <div>3</div>
+    <div id="OuterCircle" style="width:30px; height:30px;" ng-click="clickBubble(3)">
+
+      <div id="InnerCircle" style="margin: -10px 0px 0px -10px; height:20px; width:20px" ng-class="{active:isSelected(3)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+
+
+
+  <div class="" id="wrap">
+    <div>4</div>
+    <div id="OuterCircle" style="width:25px; height:25px;" ng-click="clickBubble(4)">
+
+      <div id="InnerCircle" style="margin: -10px 0px 0px -10px; height:20px; width:20px" ng-class="{active:isSelected(4)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+
+
+
+  <div class="" id="wrap">
+    <div>5</div>
+    <div id="OuterCircle" style="width:20px; height:20px;" ng-click="clickBubble(5)">
+
+      <div id="InnerCircle" style="margin: -7.5px 0px 0px -7.5px; height:15px; width:15px" ng-class="{active:isSelected(5)}"></div>
+
+    </div>
+    <span id="BottomText">{{middle}}</span>
+  </div>
+
+  <div class="" id="wrap">
+    <div>6</div>
+    <div id="OuterCircle" style="width:25px; height:25px;" ng-click="clickBubble(6)">
+
+      <div id="InnerCircle" style="margin: -10px 0px 0px -10px; height:20px; width:20px" ng-class="{active:isSelected(6)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+
+
+  <div class="" id="wrap">
+    <div>7</div>
+    <div id="OuterCircle" style="width:30px; height:30px;" ng-click="clickBubble(7)">
+
+      <div id="InnerCircle" style="margin: -10px 0px 0px -10px; height:20px; width:20px" ng-class="{active:isSelected(7)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+
+  <div class="" id="wrap">
+    <div>8</div>
+    <div id="OuterCircle" style="width:40px; height:40px;" ng-click="clickBubble(8)">
+
+      <div id="InnerCircle" style="margin: -15px 0px 0px -15px; height:30px; width:30px" ng-class="{active:isSelected(8)}"></div>
+
+    </div>
+    <span id="BottomText"></span>
+  </div>
+  <div class="" id="wrap">
+    <div>9</div>
+    <div id="OuterCircle" style="width:50px; height:50px;" ng-click="clickBubble(9)">
+
+      <div id="InnerCircle" style="margin: -20px 0px 0px -20px; height:40px; width:40px" ng-class="{active:isSelected(9)}"></div>
+
+    </div>
+    <span id="BottomText">{{right}}</span>
+  </div>
+
+
+</div>
+
+
+{{"selectedBubble:"+selectedBubble}}
+
