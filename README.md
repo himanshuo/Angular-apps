@@ -10,5 +10,5 @@ Small angular apps I've created including
 </ul>
 
 <br/><br/>
-Details of each is given in appropriate folder.
+
 
